@@ -11,6 +11,8 @@
 		512510312BA213AB00A31C3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512510302BA213AB00A31C3D /* ContentView.swift */; };
 		512510332BA213AC00A31C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512510322BA213AC00A31C3D /* Assets.xcassets */; };
 		512510362BA213AC00A31C3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512510352BA213AC00A31C3D /* Preview Assets.xcassets */; };
+		5125103E2BA2171100A31C3D /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5125103D2BA2171100A31C3D /* Shop.swift */; };
+		512510412BA2187400A31C3D /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512510402BA2187400A31C3D /* ShopItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		512510302BA213AB00A31C3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		512510322BA213AC00A31C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		512510352BA213AC00A31C3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5125103D2BA2171100A31C3D /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		512510402BA2187400A31C3D /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		5125102D2BA213AB00A31C3D /* groceryapp */ = {
 			isa = PBXGroup;
 			children = (
+				5125103F2BA2186300A31C3D /* Components */,
+				5125103C2BA216F400A31C3D /* Views */,
 				5125102E2BA213AB00A31C3D /* groceryappApp.swift */,
 				512510302BA213AB00A31C3D /* ContentView.swift */,
 				512510322BA213AC00A31C3D /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				512510352BA213AC00A31C3D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5125103C2BA216F400A31C3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5125103D2BA2171100A31C3D /* Shop.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5125103F2BA2186300A31C3D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				512510402BA2187400A31C3D /* ShopItem.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5125103E2BA2171100A31C3D /* Shop.swift in Sources */,
 				512510312BA213AB00A31C3D /* ContentView.swift in Sources */,
+				512510412BA2187400A31C3D /* ShopItem.swift in Sources */,
 				5125102F2BA213AB00A31C3D /* groceryappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
