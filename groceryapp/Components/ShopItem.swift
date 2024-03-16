@@ -30,12 +30,12 @@ struct ShopItem: View {
                 Text(title)
                 
                 Button{
-                    
+                    cartItems.append(shopItems[selfIndex])
                 }label: {
                     Text("$\(String(format: "%.2f", price))")
                         .foregroundStyle(Color.white)
                         .frame(width: 100, height: 40)
-                        .background(Color.green)
+                        .background(color)
                 }
             }
         }
